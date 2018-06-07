@@ -1,0 +1,136 @@
+/* 
+==============================================
+CONTENT:	Project Name Here
+AUTHOR:		Your Name Here
+==============================================
+
+TABLE OF CONTENTS:
+
+0. Reset
+1. Main Layout
+2. Content
+
+==============================================
+*/
+/* 0. Reset ================================= */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+body {
+	line-height: 1;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+blockquote, q {
+	quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* 1. Main Layout ================================= */
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background: #ccc;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* 2. Content ================================= */
+.todo {
+	background: white;
+	margin: 50px auto 0;
+	width: 100%;
+	max-width: 500px;
+	box-shadow: 0 20px 30px rgba(0, 0, 0, 0.5);
+}
+
+.todo h1 {
+	font-size: 2em;
+	font-weight: bold;
+	padding: 20px;
+}
+
+.todo input {
+	font-size: 1.2em;
+	font-style: italic;
+	padding: 5px 20px;
+	width: calc(100% - 40px);
+	margin: 20px;
+}
+
+.todo ul {
+	padding: 10px 0;
+	display: flex;
+	flex-direction: column;
+}
+
+.todo ul li {
+	border-top: 1px solid #aaa;
+	padding: 20px;
+}
+
+.todo ul li:nth-child(odd) {
+	background: #582cd3;
+}
+
+.todo ul li button {
+	float: right;
+}
+
+.todo ul li.done {
+	font-size: 0.75em;
+	order: 100;
+	padding: 10px 20px;
+	opacity: 0.5;
+	text-decoration: line-through;
+}
+
+.todo > p {
+	font-size: 0.66em;
+	padding: 5px 20px;
+	color: #aaa;
+}
+
+/*# sourceMappingURL=main.css.map */
