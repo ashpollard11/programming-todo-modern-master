@@ -112,7 +112,7 @@ body {
 }
 
 .todo ul li:nth-child(odd) {
-	background: #582cd3;
+	background: #9e85e5;
 }
 
 .todo ul li button {
